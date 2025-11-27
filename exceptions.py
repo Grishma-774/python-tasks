@@ -88,7 +88,7 @@
 # 9.Custom Error Message
 # If the user enters a negative age, raise a ValueError with a 
 # custom message: "Age cannot be negative!".
-#code
+#code:
 # try:
 #     age=int(input("enter your age"))
 #     if (age<0):
@@ -128,4 +128,5 @@
 #     print("plz enter only integer")
 # except ZeroDivisionError:
 #     print("can't be divide with Zero")
+
 
