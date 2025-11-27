@@ -87,17 +87,18 @@
 # op=filter(lambda x: len(x)>=8 and re.search(regex,x),pwd)
 # print(list(op))
 
-# 7) Process Transaction Records Given transactions 
+# 8) Process Transaction Records Given transactions 
 # as ["1000-CREDIT", "500-DEBIT", "1200-CREDIT", "200-DEBIT"]:
 # * Use map() to extract the amounts as integers.
 # * Use filter() to separate credits and debits.
 #code:
-import re
-trn=["1000-CREDIT", "500-DEBIT", "1200-CREDIT", "200-DEBIT"]
-output1=map(lambda x: x.split("-")[0],trn)
-print("Amount:",list(output1))
+# import re
+# trn=["1000-CREDIT", "500-DEBIT", "1200-CREDIT", "200-DEBIT"]
+# output1=map(lambda x: x.split("-")[0],trn)
+# print("Amount:",list(output1))
 
-credit=filter(lambda x:re.search("CREDIT",x),trn)
-print("credit:",list(credit))
-debit=filter(lambda x: re.search("DEBIT",x),trn)
-print("debit:",list(debit))
+# credit=filter(lambda x:re.search("CREDIT",x),trn)
+# print("credit:",list(credit))
+# debit=filter(lambda x: re.search("DEBIT",x),trn)
+
+# print("debit:",list(debit))
